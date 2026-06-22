@@ -8,6 +8,62 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table border=1>
+  <thead>
+    <tr>
+      <th>Firm</th>
+      <th>Org</th>
+      <th>Lob</th>
+      <th>Sub Lob</th>
+      <th>Business Plans</th>
+      <th>Business Components</th>
+    </tr>
+  </thead>
+ <tbody>
+     <tbody>
+  <tr>
+    <td rowspan="11">XYZ</td>
+    <td rowspan="5">CST</td>
+    <td rowspan="3">CT</td>
+    <td>ADS</td>
+    <td>1</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Sub Lob 2</td>
+    <td>2</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <!-- No Firm, Org, Lob cells here due to rowspan -->
+    <td>Sub Lob 3</td>
+    <td>3</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <!-- Firm and Org still covered, Lob rowspan ended -->
+    <td>New Lob 1</td>
+    <td>Sub Lob 4</td>
+    <td>4</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <!-- Firm and Org still covered -->
+    <td>New Lob 2</td>
+    <td>Sub Lob 5</td>
+    <td>5</td>
+    <td>7</td>
+  </tr>
+  <tr>
+      <td class="sub-total-text" colspan="3">Sub Total</td>
+      <td>6</td>
+      <td>15</td>
+    </tr>
+	 
+    
+  </tbody>
+</table>
+
     <script type="text/javascript" src="./script.js">
 </script>
 

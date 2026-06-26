@@ -5,11 +5,11 @@ table {
   border-collapse: collapse;
   border-style: solid;
   border-color: orange;
-  border-width: 0 0 1px 1px;
+  border-width: 1px;
 }
 
  th, td {
-  border-width: 1px;
+  border-width: 1px 1px 0px 0px;
   border-style: solid;
   border-color: orange;
   padding: 3px 5px;

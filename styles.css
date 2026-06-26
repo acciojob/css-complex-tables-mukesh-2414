@@ -1,15 +1,15 @@
 /*  your css code here. If applicable */
+
 table {
+  width: 100%;
   border-collapse: collapse;
-  border-width: 1px;
   border-style: solid;
   border-color: orange;
-  width: 100%;
+  border-width: 0 0 1px 1px;
 }
 
-
  th, td {
-  border-width: 0px 0px 1px 1px;
+  border-width: 1px;
   border-style: solid;
   border-color: orange;
   padding: 3px 5px;

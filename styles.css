@@ -5,8 +5,11 @@ table {
   width: 100%;
 }
 
-th, td {
-  border: 1px solid orange;
+
+ th, td {
+  border-width: 0px 0px 1px 1px;
+  border-style: solid;
+  border-color: orange;
   padding: 3px 5px;
   text-align: center;
 }
